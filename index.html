@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog-Website-Design</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" media="screen and (max-width: 395px) and (min-width: 100px)" href="phone2.css"> -->
+</head>
+<body> 
+    <nav class="nav-items">
+        <img src="./images/logo.png" alt="logo.png">
+        <ul id="tabs">
+            <li><a class="nav-link nav-link-ltr" href="#">Home</a></li>
+            <li><a class="nav-link nav-link-ltr" href="#">Services</a></li>
+            <li><a class="nav-link nav-link-ltr" href="#">About</a></li>
+            <li><a class="nav-link nav-link-ltr" href="#">Contact Us</a></li>
+        </ul>
+        <div class="searchBox">
+            <input type="text" name="search" id="searchBar">
+            <button id="btn">search</button>
+        </div>
+    </nav>
+
+    <section class="HomeContainer">
+        <div class="HeadLine">
+            <div id="heading"><h1>Coding: Building the Future, One Byte at a Time</h1></div>
+            <div id="headingPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, culpa! At ratione laboriosam alias tempora optio. Reprehenderit maxime eaque vitae quis, voluptatibus quo ducimus repellendus.</div>
+        </div>
+        <img id="CoverImg" src="./images/homeImg.jpg" alt="homeImg2.jpg">
+        <div class="buttons">
+            <button>Courses</button>
+            <button>Enroll Now</button>
+        </div>
+    </section>
+
+    <section class="services">
+        <h1 class="sectionHeading">Service</h1> 
+        <div class="cardRight" id="first-block">
+            <div class="CONTENT">
+                <h1>The Impact of 5G on Future Connectivity</h1>
+                <p>5G technology is ushering in a new era of connectivity with faster speeds, lower latency, and massive device connectivity. From smart cities to autonomous vehicles, explore how 5G networks are enabling innovations that were once only science fiction.</p>
+            </div>
+            <div>
+                <img src="./images/card1.jpg" alt="card1.jpg">
+            </div>
+        </div>
+        <div class="cardLeft">
+            <div class="CONTENT">
+            
+                <h1>The Future of AI in Healthcare</h1>
+                <p>Artificial Intelligence is revolutionizing healthcare by enhancing diagnostic accuracy, personalized treatment plans, and operational efficiency. From machine learning algorithms that predict patient outcomes to AI-powered robotic surgery, the future holds exciting possibilities for medical advancements.</p>
+            </div>
+            <div>
+                <img src="./images/card2.webp" alt="card2.webp">
+            </div>
+        </div>
+        <div class="cardRight">
+            <div class="CONTENT">
+                <h1>Build Your Tech Career</h1>
+                <p>Building a tech career in coding demands a blend of passion, persistence, and adaptability. Embrace continuous learning to stay ahead in this rapidly evolving field. Dive into diverse projects, collaborate with peers, and cultivate problem-solving skills. Harness the power of online resources and communities to expand your knowledge base. With dedication and innovation, forge a rewarding path in coding.</p>
+            </div>
+            <div>
+                <img src="./images/card3.jpg" alt="card3.jpg">
+            </div>
+        </div>
+        <div class="cardLeft" id="last-block">
+            <div class="CONTENT">
+                <h1>The Evolution of Cybersecurity in the Age of IoT</h1>
+                <p>With the Internet of Things (IoT) expanding, cybersecurity is more critical than ever. From securing smart homes to protecting industrial systems, innovative solutions like AI-driven threat detection and blockchain-based authentication are reshaping defense strategies.</p>
+            </div> 
+            <div>
+                <img src="./images/card4.jpg" alt="card4.jpg">
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h1 class="sectionHeading">Contact Us</h1>
+    <form action="" class="form-group">
+        <input type="text" name="name" placeholder="Enter your name">
+        <input type="text" name="location" placeholder="Enter your city">
+        <input type="number" name="age" id="age" placeholder="Enter your age">
+        <input type="email" name="mail" id="mail" placeholder="Enter your email">
+        <textarea name="issue" id="txt" placeholder="write your issue.." rows="10" cols="5"></textarea>
+        </form>
+    <button id="btnn">submit</button>
+    </section>
+
+    <footer>
+        <p>Copyright protected &#xA9 || All rights are reserved to CodeSmart.com</p>
+        <p id="p2">Cubbon Park, Bengaluru, 560001 || contact - 96888204663</p>
+    </footer>
+</body>
+</html>
